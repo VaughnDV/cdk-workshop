@@ -25,6 +25,11 @@ setuptools.setup(
         "aws-cdk.aws_sns",
         "aws-cdk.aws_sns_subscriptions",
         "aws-cdk.aws_s3",
+        "aws-cdk.aws-lambda",
+        "aws-cdk.aws_apigateway",
+        "aws-cdk.aws_dynamodb",
+        "cdk-dynamo-table-viewer",
+        "boto3"
     ],
 
     python_requires=">=3.6",
