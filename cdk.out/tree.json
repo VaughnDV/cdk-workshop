@@ -1,0 +1,805 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": [
+      {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      {
+        "id": "hello-cdk-1",
+        "path": "hello-cdk-1",
+        "children": [
+          {
+            "id": "HelloHandler",
+            "path": "hello-cdk-1/HelloHandler",
+            "children": [
+              {
+                "id": "ServiceRole",
+                "path": "hello-cdk-1/HelloHandler/ServiceRole",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/HelloHandler/ServiceRole/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Code",
+                "path": "hello-cdk-1/HelloHandler/Code",
+                "children": [
+                  {
+                    "id": "Stage",
+                    "path": "hello-cdk-1/HelloHandler/Code/Stage"
+                  },
+                  {
+                    "id": "AssetBucket",
+                    "path": "hello-cdk-1/HelloHandler/Code/AssetBucket"
+                  }
+                ]
+              },
+              {
+                "id": "Resource",
+                "path": "hello-cdk-1/HelloHandler/Resource"
+              }
+            ]
+          },
+          {
+            "id": "AssetParameters",
+            "path": "hello-cdk-1/AssetParameters",
+            "children": [
+              {
+                "id": "1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e",
+                "path": "hello-cdk-1/AssetParameters/1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e",
+                "children": [
+                  {
+                    "id": "S3Bucket",
+                    "path": "hello-cdk-1/AssetParameters/1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e/S3Bucket"
+                  },
+                  {
+                    "id": "S3VersionKey",
+                    "path": "hello-cdk-1/AssetParameters/1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e/S3VersionKey"
+                  },
+                  {
+                    "id": "ArtifactHash",
+                    "path": "hello-cdk-1/AssetParameters/1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e/ArtifactHash"
+                  }
+                ]
+              },
+              {
+                "id": "ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681",
+                "path": "hello-cdk-1/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681",
+                "children": [
+                  {
+                    "id": "S3Bucket",
+                    "path": "hello-cdk-1/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/S3Bucket"
+                  },
+                  {
+                    "id": "S3VersionKey",
+                    "path": "hello-cdk-1/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/S3VersionKey"
+                  },
+                  {
+                    "id": "ArtifactHash",
+                    "path": "hello-cdk-1/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/ArtifactHash"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "HelloHitCounter",
+            "path": "hello-cdk-1/HelloHitCounter",
+            "children": [
+              {
+                "id": "Hits",
+                "path": "hello-cdk-1/HelloHitCounter/Hits",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/HelloHitCounter/Hits/Resource"
+                  },
+                  {
+                    "id": "ScalingRole",
+                    "path": "hello-cdk-1/HelloHitCounter/Hits/ScalingRole"
+                  }
+                ]
+              },
+              {
+                "id": "HitCountHandler",
+                "path": "hello-cdk-1/HelloHitCounter/HitCountHandler",
+                "children": [
+                  {
+                    "id": "ServiceRole",
+                    "path": "hello-cdk-1/HelloHitCounter/HitCountHandler/ServiceRole",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-1/HelloHitCounter/HitCountHandler/ServiceRole/Resource"
+                      },
+                      {
+                        "id": "DefaultPolicy",
+                        "path": "hello-cdk-1/HelloHitCounter/HitCountHandler/ServiceRole/DefaultPolicy",
+                        "children": [
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-1/HelloHitCounter/HitCountHandler/ServiceRole/DefaultPolicy/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Code",
+                    "path": "hello-cdk-1/HelloHitCounter/HitCountHandler/Code",
+                    "children": [
+                      {
+                        "id": "Stage",
+                        "path": "hello-cdk-1/HelloHitCounter/HitCountHandler/Code/Stage"
+                      },
+                      {
+                        "id": "AssetBucket",
+                        "path": "hello-cdk-1/HelloHitCounter/HitCountHandler/Code/AssetBucket"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/HelloHitCounter/HitCountHandler/Resource"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Endpoint",
+            "path": "hello-cdk-1/Endpoint",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "hello-cdk-1/Endpoint/Resource"
+              },
+              {
+                "id": "Deployment",
+                "path": "hello-cdk-1/Endpoint/Deployment",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/Endpoint/Deployment/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "DeploymentStage.prod",
+                "path": "hello-cdk-1/Endpoint/DeploymentStage.prod",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/Endpoint/DeploymentStage.prod/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Endpoint",
+                "path": "hello-cdk-1/Endpoint/Endpoint"
+              },
+              {
+                "id": "CloudWatchRole",
+                "path": "hello-cdk-1/Endpoint/CloudWatchRole",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/Endpoint/CloudWatchRole/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Account",
+                "path": "hello-cdk-1/Endpoint/Account"
+              },
+              {
+                "id": "Default",
+                "path": "hello-cdk-1/Endpoint/Default",
+                "children": [
+                  {
+                    "id": "{proxy+}",
+                    "path": "hello-cdk-1/Endpoint/Default/{proxy+}",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-1/Endpoint/Default/{proxy+}/Resource"
+                      },
+                      {
+                        "id": "ANY",
+                        "path": "hello-cdk-1/Endpoint/Default/{proxy+}/ANY",
+                        "children": [
+                          {
+                            "id": "ApiPermission.hellocdk1Endpoint01F8FAD0.ANY..{proxy+}",
+                            "path": "hello-cdk-1/Endpoint/Default/{proxy+}/ANY/ApiPermission.hellocdk1Endpoint01F8FAD0.ANY..{proxy+}"
+                          },
+                          {
+                            "id": "ApiPermission.Test.hellocdk1Endpoint01F8FAD0.ANY..{proxy+}",
+                            "path": "hello-cdk-1/Endpoint/Default/{proxy+}/ANY/ApiPermission.Test.hellocdk1Endpoint01F8FAD0.ANY..{proxy+}"
+                          },
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-1/Endpoint/Default/{proxy+}/ANY/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ANY",
+                    "path": "hello-cdk-1/Endpoint/Default/ANY",
+                    "children": [
+                      {
+                        "id": "ApiPermission.hellocdk1Endpoint01F8FAD0.ANY..",
+                        "path": "hello-cdk-1/Endpoint/Default/ANY/ApiPermission.hellocdk1Endpoint01F8FAD0.ANY.."
+                      },
+                      {
+                        "id": "ApiPermission.Test.hellocdk1Endpoint01F8FAD0.ANY..",
+                        "path": "hello-cdk-1/Endpoint/Default/ANY/ApiPermission.Test.hellocdk1Endpoint01F8FAD0.ANY.."
+                      },
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-1/Endpoint/Default/ANY/Resource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ViewHitCounter",
+            "path": "hello-cdk-1/ViewHitCounter",
+            "children": [
+              {
+                "id": "Rendered",
+                "path": "hello-cdk-1/ViewHitCounter/Rendered",
+                "children": [
+                  {
+                    "id": "ServiceRole",
+                    "path": "hello-cdk-1/ViewHitCounter/Rendered/ServiceRole",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-1/ViewHitCounter/Rendered/ServiceRole/Resource"
+                      },
+                      {
+                        "id": "DefaultPolicy",
+                        "path": "hello-cdk-1/ViewHitCounter/Rendered/ServiceRole/DefaultPolicy",
+                        "children": [
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-1/ViewHitCounter/Rendered/ServiceRole/DefaultPolicy/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Code",
+                    "path": "hello-cdk-1/ViewHitCounter/Rendered/Code",
+                    "children": [
+                      {
+                        "id": "Stage",
+                        "path": "hello-cdk-1/ViewHitCounter/Rendered/Code/Stage"
+                      },
+                      {
+                        "id": "AssetBucket",
+                        "path": "hello-cdk-1/ViewHitCounter/Rendered/Code/AssetBucket"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/ViewHitCounter/Rendered/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "ViewerEndpoint",
+                "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Resource"
+                  },
+                  {
+                    "id": "Deployment",
+                    "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Deployment",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Deployment/Resource"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DeploymentStage.prod",
+                    "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/DeploymentStage.prod",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/DeploymentStage.prod/Resource"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Endpoint",
+                    "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Endpoint"
+                  },
+                  {
+                    "id": "CloudWatchRole",
+                    "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/CloudWatchRole",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/CloudWatchRole/Resource"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Account",
+                    "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Account"
+                  },
+                  {
+                    "id": "Default",
+                    "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default",
+                    "children": [
+                      {
+                        "id": "{proxy+}",
+                        "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/{proxy+}",
+                        "children": [
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/Resource"
+                          },
+                          {
+                            "id": "ANY",
+                            "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY",
+                            "children": [
+                              {
+                                "id": "ApiPermission.hellocdk1ViewHitCounterViewerEndpoint55E2E6B2.ANY..{proxy+}",
+                                "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/ApiPermission.hellocdk1ViewHitCounterViewerEndpoint55E2E6B2.ANY..{proxy+}"
+                              },
+                              {
+                                "id": "ApiPermission.Test.hellocdk1ViewHitCounterViewerEndpoint55E2E6B2.ANY..{proxy+}",
+                                "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/ApiPermission.Test.hellocdk1ViewHitCounterViewerEndpoint55E2E6B2.ANY..{proxy+}"
+                              },
+                              {
+                                "id": "Resource",
+                                "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/Resource"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ANY",
+                        "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/ANY",
+                        "children": [
+                          {
+                            "id": "ApiPermission.hellocdk1ViewHitCounterViewerEndpoint55E2E6B2.ANY..",
+                            "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/ANY/ApiPermission.hellocdk1ViewHitCounterViewerEndpoint55E2E6B2.ANY.."
+                          },
+                          {
+                            "id": "ApiPermission.Test.hellocdk1ViewHitCounterViewerEndpoint55E2E6B2.ANY..",
+                            "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/ANY/ApiPermission.Test.hellocdk1ViewHitCounterViewerEndpoint55E2E6B2.ANY.."
+                          },
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-1/ViewHitCounter/ViewerEndpoint/Default/ANY/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hello-cdk-2",
+        "path": "hello-cdk-2",
+        "children": [
+          {
+            "id": "HelloHandler",
+            "path": "hello-cdk-2/HelloHandler",
+            "children": [
+              {
+                "id": "ServiceRole",
+                "path": "hello-cdk-2/HelloHandler/ServiceRole",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/HelloHandler/ServiceRole/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Code",
+                "path": "hello-cdk-2/HelloHandler/Code",
+                "children": [
+                  {
+                    "id": "Stage",
+                    "path": "hello-cdk-2/HelloHandler/Code/Stage"
+                  },
+                  {
+                    "id": "AssetBucket",
+                    "path": "hello-cdk-2/HelloHandler/Code/AssetBucket"
+                  }
+                ]
+              },
+              {
+                "id": "Resource",
+                "path": "hello-cdk-2/HelloHandler/Resource"
+              }
+            ]
+          },
+          {
+            "id": "AssetParameters",
+            "path": "hello-cdk-2/AssetParameters",
+            "children": [
+              {
+                "id": "1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e",
+                "path": "hello-cdk-2/AssetParameters/1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e",
+                "children": [
+                  {
+                    "id": "S3Bucket",
+                    "path": "hello-cdk-2/AssetParameters/1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e/S3Bucket"
+                  },
+                  {
+                    "id": "S3VersionKey",
+                    "path": "hello-cdk-2/AssetParameters/1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e/S3VersionKey"
+                  },
+                  {
+                    "id": "ArtifactHash",
+                    "path": "hello-cdk-2/AssetParameters/1f48ed2dd10b67374c56553950f4738f4a9a3070e6e51eb74e41f00b760c1c0e/ArtifactHash"
+                  }
+                ]
+              },
+              {
+                "id": "ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681",
+                "path": "hello-cdk-2/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681",
+                "children": [
+                  {
+                    "id": "S3Bucket",
+                    "path": "hello-cdk-2/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/S3Bucket"
+                  },
+                  {
+                    "id": "S3VersionKey",
+                    "path": "hello-cdk-2/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/S3VersionKey"
+                  },
+                  {
+                    "id": "ArtifactHash",
+                    "path": "hello-cdk-2/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/ArtifactHash"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "HelloHitCounter",
+            "path": "hello-cdk-2/HelloHitCounter",
+            "children": [
+              {
+                "id": "Hits",
+                "path": "hello-cdk-2/HelloHitCounter/Hits",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/HelloHitCounter/Hits/Resource"
+                  },
+                  {
+                    "id": "ScalingRole",
+                    "path": "hello-cdk-2/HelloHitCounter/Hits/ScalingRole"
+                  }
+                ]
+              },
+              {
+                "id": "HitCountHandler",
+                "path": "hello-cdk-2/HelloHitCounter/HitCountHandler",
+                "children": [
+                  {
+                    "id": "ServiceRole",
+                    "path": "hello-cdk-2/HelloHitCounter/HitCountHandler/ServiceRole",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-2/HelloHitCounter/HitCountHandler/ServiceRole/Resource"
+                      },
+                      {
+                        "id": "DefaultPolicy",
+                        "path": "hello-cdk-2/HelloHitCounter/HitCountHandler/ServiceRole/DefaultPolicy",
+                        "children": [
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-2/HelloHitCounter/HitCountHandler/ServiceRole/DefaultPolicy/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Code",
+                    "path": "hello-cdk-2/HelloHitCounter/HitCountHandler/Code",
+                    "children": [
+                      {
+                        "id": "Stage",
+                        "path": "hello-cdk-2/HelloHitCounter/HitCountHandler/Code/Stage"
+                      },
+                      {
+                        "id": "AssetBucket",
+                        "path": "hello-cdk-2/HelloHitCounter/HitCountHandler/Code/AssetBucket"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/HelloHitCounter/HitCountHandler/Resource"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Endpoint",
+            "path": "hello-cdk-2/Endpoint",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "hello-cdk-2/Endpoint/Resource"
+              },
+              {
+                "id": "Deployment",
+                "path": "hello-cdk-2/Endpoint/Deployment",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/Endpoint/Deployment/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "DeploymentStage.prod",
+                "path": "hello-cdk-2/Endpoint/DeploymentStage.prod",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/Endpoint/DeploymentStage.prod/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Endpoint",
+                "path": "hello-cdk-2/Endpoint/Endpoint"
+              },
+              {
+                "id": "CloudWatchRole",
+                "path": "hello-cdk-2/Endpoint/CloudWatchRole",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/Endpoint/CloudWatchRole/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Account",
+                "path": "hello-cdk-2/Endpoint/Account"
+              },
+              {
+                "id": "Default",
+                "path": "hello-cdk-2/Endpoint/Default",
+                "children": [
+                  {
+                    "id": "{proxy+}",
+                    "path": "hello-cdk-2/Endpoint/Default/{proxy+}",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-2/Endpoint/Default/{proxy+}/Resource"
+                      },
+                      {
+                        "id": "ANY",
+                        "path": "hello-cdk-2/Endpoint/Default/{proxy+}/ANY",
+                        "children": [
+                          {
+                            "id": "ApiPermission.hellocdk2Endpoint38B44E24.ANY..{proxy+}",
+                            "path": "hello-cdk-2/Endpoint/Default/{proxy+}/ANY/ApiPermission.hellocdk2Endpoint38B44E24.ANY..{proxy+}"
+                          },
+                          {
+                            "id": "ApiPermission.Test.hellocdk2Endpoint38B44E24.ANY..{proxy+}",
+                            "path": "hello-cdk-2/Endpoint/Default/{proxy+}/ANY/ApiPermission.Test.hellocdk2Endpoint38B44E24.ANY..{proxy+}"
+                          },
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-2/Endpoint/Default/{proxy+}/ANY/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ANY",
+                    "path": "hello-cdk-2/Endpoint/Default/ANY",
+                    "children": [
+                      {
+                        "id": "ApiPermission.hellocdk2Endpoint38B44E24.ANY..",
+                        "path": "hello-cdk-2/Endpoint/Default/ANY/ApiPermission.hellocdk2Endpoint38B44E24.ANY.."
+                      },
+                      {
+                        "id": "ApiPermission.Test.hellocdk2Endpoint38B44E24.ANY..",
+                        "path": "hello-cdk-2/Endpoint/Default/ANY/ApiPermission.Test.hellocdk2Endpoint38B44E24.ANY.."
+                      },
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-2/Endpoint/Default/ANY/Resource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ViewHitCounter",
+            "path": "hello-cdk-2/ViewHitCounter",
+            "children": [
+              {
+                "id": "Rendered",
+                "path": "hello-cdk-2/ViewHitCounter/Rendered",
+                "children": [
+                  {
+                    "id": "ServiceRole",
+                    "path": "hello-cdk-2/ViewHitCounter/Rendered/ServiceRole",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-2/ViewHitCounter/Rendered/ServiceRole/Resource"
+                      },
+                      {
+                        "id": "DefaultPolicy",
+                        "path": "hello-cdk-2/ViewHitCounter/Rendered/ServiceRole/DefaultPolicy",
+                        "children": [
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-2/ViewHitCounter/Rendered/ServiceRole/DefaultPolicy/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Code",
+                    "path": "hello-cdk-2/ViewHitCounter/Rendered/Code",
+                    "children": [
+                      {
+                        "id": "Stage",
+                        "path": "hello-cdk-2/ViewHitCounter/Rendered/Code/Stage"
+                      },
+                      {
+                        "id": "AssetBucket",
+                        "path": "hello-cdk-2/ViewHitCounter/Rendered/Code/AssetBucket"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/ViewHitCounter/Rendered/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "ViewerEndpoint",
+                "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Resource"
+                  },
+                  {
+                    "id": "Deployment",
+                    "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Deployment",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Deployment/Resource"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DeploymentStage.prod",
+                    "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/DeploymentStage.prod",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/DeploymentStage.prod/Resource"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Endpoint",
+                    "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Endpoint"
+                  },
+                  {
+                    "id": "CloudWatchRole",
+                    "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/CloudWatchRole",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/CloudWatchRole/Resource"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Account",
+                    "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Account"
+                  },
+                  {
+                    "id": "Default",
+                    "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default",
+                    "children": [
+                      {
+                        "id": "{proxy+}",
+                        "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/{proxy+}",
+                        "children": [
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/Resource"
+                          },
+                          {
+                            "id": "ANY",
+                            "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY",
+                            "children": [
+                              {
+                                "id": "ApiPermission.hellocdk2ViewHitCounterViewerEndpoint6E5B1B9B.ANY..{proxy+}",
+                                "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/ApiPermission.hellocdk2ViewHitCounterViewerEndpoint6E5B1B9B.ANY..{proxy+}"
+                              },
+                              {
+                                "id": "ApiPermission.Test.hellocdk2ViewHitCounterViewerEndpoint6E5B1B9B.ANY..{proxy+}",
+                                "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/ApiPermission.Test.hellocdk2ViewHitCounterViewerEndpoint6E5B1B9B.ANY..{proxy+}"
+                              },
+                              {
+                                "id": "Resource",
+                                "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/Resource"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ANY",
+                        "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/ANY",
+                        "children": [
+                          {
+                            "id": "ApiPermission.hellocdk2ViewHitCounterViewerEndpoint6E5B1B9B.ANY..",
+                            "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/ANY/ApiPermission.hellocdk2ViewHitCounterViewerEndpoint6E5B1B9B.ANY.."
+                          },
+                          {
+                            "id": "ApiPermission.Test.hellocdk2ViewHitCounterViewerEndpoint6E5B1B9B.ANY..",
+                            "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/ANY/ApiPermission.Test.hellocdk2ViewHitCounterViewerEndpoint6E5B1B9B.ANY.."
+                          },
+                          {
+                            "id": "Resource",
+                            "path": "hello-cdk-2/ViewHitCounter/ViewerEndpoint/Default/ANY/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
